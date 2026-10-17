@@ -11,13 +11,10 @@ See repository images for an example installation.
 - Route the buffer board LED pad(s) to the original LED cathode.
 - Solder and secure; test before final mounting.
 
-## Required skills
-Fine SMD soldering (0603), experience with PCB mods and careful wiring.
-
 ## Required tools & parts
 - Fine soldering iron (0.2–0.4 mm tip), 0.3 mm solder wire
 - Flux, solder wick, fine tweezers (ESD safe)
-- Thin insulated wire (30–34 AWG, enamelled)
+- Thin insulated wire (30–34 AWG enamelled)
 - Hobby knife or micro rotary tool for cutting PCB traces
 - Magnification (stereo microscope or microscope — I used 100×)
 - Isopropyl alcohol and brush for cleaning
@@ -25,9 +22,9 @@ Fine SMD soldering (0603), experience with PCB mods and careful wiring.
 ## Bench testing the PCB (before attaching to backplane)
 Perform a quick bench test to verify the buffer PCB is working before you solder it into the backplane.
 
-1. For each channel, connect one LED with a 1.6 kΩ series resistor between the board 5 V pad and the corresponding LED pad (one LED + resistor per channel). This provides a visible load for each output channel.
+1. For each channel, connect one LED with a 1.6 kΩ series resistor between the board 5V pad and the corresponding LED pad (one LED + resistor per channel). This provides a visible load for each output channel.
 2. Attach the multimeter negative (COM) probe to GND on the board.
-3. Apply +5 V to the board by connecting +5 V between the board 5 V pad and GND.
+3. Apply +5V to the board by connecting +5V between the board 5V pad and GND.
 4. All LEDs should be off with no ACT input asserted.
 
 Measurements you should see (example values from the builder):
@@ -48,7 +45,7 @@ Notes:
 4. For each channel, solder a thin wire from the buffer board LED pad to the isolated LED cathode pad.
 5. Check continuity, verify no shorts, and bench LED activity.
 6. Secure wiring with Kapton tape or super glue for strain relief, particularly on front side of PCB.
-7. Reinstall and test.
+7. Reinstall and test
 
 
 ## Hand-soldering 0603 SMD (brief)
@@ -63,7 +60,6 @@ Notes:
 
 ## Safety & notes
 - This mod changes the backplane; proceed at your own risk. Use ESD precautions.
-- When first powering a modified backplane, use a current-limited bench power supply.
 - Builder note: 100× microscope made assembly far easier for 0603 parts.
 
 ## License
