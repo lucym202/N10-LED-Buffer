@@ -24,6 +24,7 @@ See repository images for an example installation.
 - 1x 470R Resistor SMD 0603
 - 5x BC847B Transistor SMD SOT-23
 - 1x 3.3v Zener Diode SMD 1206
+- For testing, 5x red LED and 5x ~1K6 resistor, through-hole
 
 ## Bench testing the PCB (before attaching to backplane)
 Perform a quick bench test to verify the buffer PCB is working before you solder it into the backplane.
