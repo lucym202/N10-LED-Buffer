@@ -60,9 +60,9 @@ Notes:
 ## Hand-soldering 0603 SMD (brief)
 These instructions assume you are right-handed or prefer soldering with your right hand, flip these directions if you prefer soldering with your left hand
 - Use strong magnification (100× if available), plenty of flux, and a fine-tip iron.
-- Turn the board so the ACT pads face left. Apply flux and tin one pad for each component on ACT side of the board.
+- Turn the board so the ACT pads face right. Apply flux and tin one pad for each component on ACT side of the board.
 - Start with the resistors, then the transistors, and finally the diode. Work from left to right
-- Turn board so the LED pads face left, hold the component with the tweezers in your left hand, and your soldering iron in your right
+- Hold the component with the tweezers in your left hand, and your soldering iron in your right
 - Reflow the pad with the soldering iron, then move the component into place and allow the solder to cool
 - Once all components of each type are in place, turn the board so the ACT pads face left, and solder the opposite pad(s) with a minimal amount of solder, then reflow the tacked pad if needed.
 - Clean flux with isopropyl alcohol. Use solder wick to remove bridges.
