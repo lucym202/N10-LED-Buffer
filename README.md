@@ -12,7 +12,7 @@ See repository images for an example installation.
 - Solder and secure; test before final mounting.
 
 ## Required tools & parts
-- Fine soldering iron (0.2–0.4 mm tip), 0.3 mm solder wire
+- Fine soldering iron - 2mm chisel tip, 0.7 mm solder wire
 - Flux, solder wick, fine tweezers (ESD safe)
 - Thin insulated wire (30 SWG Kynar)
 - Hobby knife or micro rotary tool for cutting PCB traces
