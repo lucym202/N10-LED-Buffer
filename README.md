@@ -19,6 +19,7 @@ See repository images for an example installation.
 - Hobby knife or micro rotary tool for cutting PCB traces
 - Magnification (I used a 100× microscope)
 - Isopropyl alcohol and brush for cleaning
+- Foam tape, to secure buffer board to backplane board
 - 5x 2K Resistor SMD 0603
 - 5x 12K Resistor SMD 0603
 - 1x 470R Resistor SMD 0603
