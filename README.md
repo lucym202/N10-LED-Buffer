@@ -59,7 +59,9 @@ Notes:
 
 ## Testing & troubleshooting
 - If LED is off: check polarity, continuity, and solder joints.
+- If LED is on when no drive is installed: Check transistor voltages, replace transistor if defective
 - If channel behaves incorrectly: ensure the original trace was fully cut and the ACT wiring is solid.
+- If LED is stuck on only when drive is installed verify your drive configuration, many SAS drives hold the indicator on from spin-up and blink off for activity
 
 ## Safety & notes
 - This mod changes the backplane; proceed at your own risk. Use ESD precautions.
