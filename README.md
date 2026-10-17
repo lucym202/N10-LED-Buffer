@@ -41,7 +41,7 @@ Measurements you should see (example values from the builder):
 - ACT pad currents (with no input): should be < 300 µA (builder saw ~220 µA).
 
 Verification step (per-channel):
-- To confirm a channel responds, briefly touch the ACT pad with the multimeter + probe while the meter is set to measure current; the corresponding LED should light. Take care when using the multimeter in current mode and avoid creating a sustained short.
+- To confirm a channel responds, briefly touch the ACT pad with the multimeter + probe while the meter is set to measure current; the corresponding LED should light.
 
 Notes:
 - These checks verify the buffer's idle voltages and the small leakage/source currents seen on the ACT inputs. If values are significantly outside the ranges above, re-check soldering, component orientation, and that there are no accidental shorts.
