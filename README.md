@@ -10,6 +10,7 @@ See repository images for an example installation.
 - Route the ACT pad(s) to the buffer board P11 connection.
 - Route the buffer board LED pad(s) to the original LED cathode.
 - Solder and secure; test before final mounting.
+- You could redesign the board if you have trouble soldering 0603 components, but keep in mind the backplane uses 0603 resistors and LEDs
 
 ## Required tools & parts
 - Fine soldering iron - 2mm chisel tip, 0.7 mm solder wire
@@ -18,6 +19,11 @@ See repository images for an example installation.
 - Hobby knife or micro rotary tool for cutting PCB traces
 - Magnification (I used a 100× microscope)
 - Isopropyl alcohol and brush for cleaning
+- 5x 2K Resistor SMD 0603
+- 5x 12K Resistor SMD 0603
+- 1x 470R Resistor SMD 0603
+- 5x BC847B Transistor SMD SOT-23
+- 1x 3.3v Zener Diode SMD 1206
 
 ## Bench testing the PCB (before attaching to backplane)
 Perform a quick bench test to verify the buffer PCB is working before you solder it into the backplane.
