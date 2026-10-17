@@ -14,9 +14,9 @@ See repository images for an example installation.
 ## Required tools & parts
 - Fine soldering iron (0.2–0.4 mm tip), 0.3 mm solder wire
 - Flux, solder wick, fine tweezers (ESD safe)
-- Thin insulated wire (30–34 AWG enamelled)
+- Thin insulated wire (30 SWG Kynar)
 - Hobby knife or micro rotary tool for cutting PCB traces
-- Magnification (stereo microscope or microscope — I used 100×)
+- Magnification (I used a 100× microscope)
 - Isopropyl alcohol and brush for cleaning
 
 ## Bench testing the PCB (before attaching to backplane)
@@ -50,8 +50,11 @@ Notes:
 
 ## Hand-soldering 0603 SMD (brief)
 - Use strong magnification (100× if available), plenty of flux, and a fine-tip iron.
-- Tack one pad first: add a tiny solder bead, place the component with tweezers and reflow to hold it.
-- Solder the opposite pad with a minimal amount of solder, then reflow the tacked pad if needed.
+- Apply flux and tin one pad for each component on ACT side of the board.
+- Start with the resistors, then the transistors, and finally the diode
+- If you are right handed, turn board so the LED pads face left, hold the component with the tweezers in your left hand, and your soldering iron in your right
+- Reflow the pad with the soldering iron, then move the component into place and allow the solder to cool
+- Solder the opposite pad(s) with a minimal amount of solder, then reflow the tacked pad if needed.
 - Clean flux with isopropyl alcohol. Use solder wick to remove bridges.
 
 ## Testing & troubleshooting
