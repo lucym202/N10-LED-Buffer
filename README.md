@@ -26,6 +26,7 @@ See repository images for an example installation.
 - 5x BC847B Transistor SMD SOT-23
 - 1x 3.3v Zener Diode SMD 1206
 - For testing, 5x red LED and 5x ~1K6 resistor, through-hole
+- SATA interface for testing - I used an old laptop with an eSATA port, and an eSATA to SATA cable
 
 ## Bench testing the PCB (before attaching to backplane)
 Perform a quick bench test to verify the buffer PCB is working before you solder it into the backplane.
@@ -53,7 +54,7 @@ Notes:
 4. For each channel, solder a thin wire from the buffer board LED pad to the isolated LED cathode pad.
 5. Connect the GND pad to any ground point on the backplane. This can be taken from the ground plane near the buffer board, scrape the solder mask off with a tool to create a solder pad
 6. Connect the 5V pad to the 5V rail on the backplane. This can be taken from the positive side of any of the second row of electrolytic capacitors. Power up the backplane with a test power supply and verify with a multimeter.
-7. Check continuity, verify no shorts, and bench test LED activity with a sacrificial hard drive on all ports.
+7. Check continuity, verify no shorts, and bench test LED activity with a sacrificial SATA hard drive on all ports. You will need a SATA interface plugged into the back of the board on the corresponding channel to observe activity
 8. Secure wiring with Kapton tape or super glue for strain relief, particularly on front side of PCB.
 9. Reinstall and test
 
