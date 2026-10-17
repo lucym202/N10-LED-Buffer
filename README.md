@@ -48,7 +48,7 @@ Notes:
 
 ## Installation (short)
 1. Power down and remove the backplane for access.
-2. Locate and cut 5x copper traces between the LED cathode and P11; verify isolation with a multimeter.
+2. Locate and cut 5x copper traces between the activity LED cathode and P11; verify isolation with a multimeter.
 3. For each channel, solder a thin wire from the backplane P11 pad to the buffer board ACT pad.
 4. For each channel, solder a thin wire from the buffer board LED pad to the isolated LED cathode pad.
 5. Connect the GND pad to any ground point on the backplane. This can be taken from the ground plane near the buffer board, scrape the solder mask off with a tool to create a solder pad
