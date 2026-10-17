@@ -27,6 +27,7 @@ See repository images for an example installation.
 - 1x 3.3v Zener Diode SMD 1206
 - For testing, 5x red LED and 5x ~1K6 resistor, through-hole
 - SATA interface for testing - I used an old laptop with an eSATA port, and an eSATA to SATA cable
+- Any working SATA hard drive for testing - sacrificial
 
 ## Bench testing the PCB (before attaching to backplane)
 Perform a quick bench test to verify the buffer PCB is working before you solder it into the backplane.
