@@ -45,7 +45,7 @@ Notes:
 4. For each channel, solder a thin wire from the buffer board LED pad to the isolated LED cathode pad.
 5. Connect the GND pad to any ground point on the backplane. This can be taken from the ground plane near the buffer board, scrape the solder mask off with a tool to create a solder pad
 6. Connect the 5V pad to the 5V rail on the backplane. This can be taken from the positive side of any of the second row of electrolytic capacitors. Power up the backplane with a test power supply and verify with a multimeter.
-7. Check continuity, verify no shorts, and bench LED activity.
+7. Check continuity, verify no shorts, and bench test LED activity with a sacrificial hard drive on all ports.
 8. Secure wiring with Kapton tape or super glue for strain relief, particularly on front side of PCB.
 9. Reinstall and test
 
