@@ -19,15 +19,6 @@ See repository images for an example installation.
 - Magnification (stereo microscope or microscope — I used 100×)
 - Isopropyl alcohol and brush for cleaning
 
-## Installation (short)
-1. Power down and remove the backplane for access.
-2. Locate and cut 5x copper traces between the LED cathode and P11; verify isolation with a multimeter.
-3. For each channel, solder a thin wire from the backplane P11 pad to the buffer board ACT pad.
-4. For each channel, solder a thin wire from the buffer board LED pad to the isolated LED cathode pad.
-5. Check continuity, verify no shorts, and bench LED activity.
-6. Secure wiring with Kapton tape or super glue for strain relief, particularly on front side of PCB.
-7. Reinstall and test
-
 ## Bench testing the PCB (before attaching to backplane)
 Perform a quick bench test to verify the buffer PCB is working before you solder it into the backplane.
 
@@ -46,6 +37,16 @@ Verification step (per-channel):
 
 Notes:
 - These checks verify the buffer's idle voltages and the small leakage/source currents seen on the ACT inputs. If values are significantly outside the ranges above, re-check soldering, component orientation, and that there are no accidental shorts.
+
+## Installation (short)
+1. Power down and remove the backplane for access.
+2. Locate and cut 5x copper traces between the LED cathode and P11; verify isolation with a multimeter.
+3. For each channel, solder a thin wire from the backplane P11 pad to the buffer board ACT pad.
+4. For each channel, solder a thin wire from the buffer board LED pad to the isolated LED cathode pad.
+5. Check continuity, verify no shorts, and bench LED activity.
+6. Secure wiring with Kapton tape or super glue for strain relief, particularly on front side of PCB.
+7. Reinstall and test
+
 
 ## Hand-soldering 0603 SMD (brief)
 - Use strong magnification (100× if available), plenty of flux, and a fine-tip iron.
